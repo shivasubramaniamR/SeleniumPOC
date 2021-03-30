@@ -58,7 +58,7 @@ public class CustomTestNGReporter implements IReporter {
 			customReportTemplateStr = customReportTemplateStr.replaceAll("\\$Test_Case_Detail\\$", customTestMethodSummary);
 			
 			// Write replaced test report content to custom-emailable-report.html.
-			File targetFile = new File(outputDirectory + "/OrangeHRM-emailable-report-template.html");
+			File targetFile = new File(outputDirectory + "/MyStore-emailable-report-template.html");
 			FileWriter fw = new FileWriter(targetFile);
 			fw.write(customReportTemplateStr);
 			fw.flush();

@@ -68,7 +68,7 @@ public class ProductSelection extends Base {
 		b.loadURL(URL);
 		Reporter.log("<br>Step 1 : Url Loaded------PASS");
 		
-			
+		b.ElementWait(login.SignIn);		
 		
 		b.click(login.SignIn);
 		Reporter.log("<br>Step 2 : Signin clicked------PASS");

@@ -69,7 +69,7 @@ public class UserRegistration extends Base {
 		b.loadURL(URL);
 		Reporter.log("<br>Step 1 : Url Loaded------PASS");
 		
-			
+		b.ElementWait(sur.Sign_in);	
 		
 		b.click(sur.Sign_in);
 		Reporter.log("<br>Step 2 : Signin clicked------PASS");
