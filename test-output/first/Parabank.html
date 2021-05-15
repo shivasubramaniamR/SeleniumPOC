@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>TestNG:  Parabank</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Parabank</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 15 13:18:03 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64940 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScripts.ParabankLoginCheck.Parabank_Login()'><b>Parabank_Login</b><br>Test class: testScripts.ParabankLoginCheck<br/>
+<a href="#Output-1989332276" onClick='toggleBox("Output-1989332276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1989332276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1989332276">
+Step 1 : Browser Initialized------PASS<br/>
+<br>Step 1 : Url Loaded------PASS<br/>
+<br>Step 2 : Entered username and Password and login button clicked------PASS<br/>
+<br><img src='F:/workspace/eclipse/Parabank/src/libraries/screenshots/testScripts.ParabankLoginCheck_15_05_2021_13_18_40.jpeg' height='300' width='300'/><br><br/>
+<br>Step 8 : Verificaiton of Prodcut selection------PASS<br/>
+<br>Browser Closed------PASS<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>testScripts.ParabankLoginCheck@ae45eb6</td></tr>
+<tr>
+<td title='testScripts.CreateOpenAccount.Parabank_Login()'><b>Parabank_Login</b><br>Test class: testScripts.CreateOpenAccount<br/>
+<a href="#Output-1439361845" onClick='toggleBox("Output-1439361845", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1439361845" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1439361845">
+Step 1 : Browser Initialized------PASS<br/>
+<br>Step 1 : Url Loaded------PASS<br/>
+<br>Step 2 : Entered username and Password and login button clicked------PASS<br/>
+<br>Step 3 : Open Account clicked------PASS<br/>
+<br>Step 4 : Account Type Selected------PASS<br/>
+<br>Step 5 : Open New Account clicked------PASS<br/>
+<br>Step 6 : Verified the Welcome Message------PASS<br/>
+<br>Step 7 : Account number written to Excel------PASS<br/>
+<br><img src='F:/workspace/eclipse/Parabank/src/libraries/screenshots/testScripts.CreateOpenAccount_15_05_2021_13_19_06.jpeg' height='300' width='300'/><br><br/>
+<br>Step 8 : Verificaiton of Account details------PASS<br/>
+<br>Browser Closed------PASS<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>testScripts.CreateOpenAccount@59f99ea</td></tr>
+<tr>
+<td title='testScripts.UserRegistration.user_registration()'><b>user_registration</b><br>Test class: testScripts.UserRegistration<br/>
+<a href="#Output-1636588948" onClick='toggleBox("Output-1636588948", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1636588948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1636588948">
+Step 1 : Browser Initialized------PASS<br/>
+<br>Step 1 : Url Loaded------PASS<br/>
+<br>Step 2 : Register Link clicked------PASS<br/>
+<br>Step 3 : Firstname entered------PASS<br/>
+<br>Step 4 : Lastname entered------PASS<br/>
+<br>Step 5 : Address entered------PASS<br/>
+<br>Step 6 : City entered------PASS<br/>
+<br>Step 7 : State entered------PASS<br/>
+<br>Step 8 : Zipcode entered------PASS<br/>
+<br>Step 9 : Phone entered------PASS<br/>
+<br>Step 10 : SSN entered------PASS<br/>
+<br>Step 11 : Username entered------PASS<br/>
+<br>Step 12 : Password entered------PASS<br/>
+<br>Step 13 : Confirm Password entered------PASS<br/>
+<br>Step 14 : Register Button clicked------PASS<br/>
+<br><img src='F:/workspace/eclipse/Parabank/src/libraries/screenshots/testScripts.UserRegistration_15_05_2021_13_18_21.jpeg' height='300' width='300'/><br><br/>
+<br>Step 15 : Validating the Registration ------PASS<br/>
+<br>Browser Closed------PASS<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>testScripts.UserRegistration@68c4039c</td></tr>
+</table><p>
+</body>
+</html>

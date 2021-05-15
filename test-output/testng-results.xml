@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[Step 1 : Browser Initialized------PASS]]>
@@ -8,70 +8,49 @@
       <![CDATA[<br>Step 1 : Url Loaded------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 2 : Signin clicked------PASS]]>
+      <![CDATA[<br>Step 2 : Register Link clicked------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 3 : email entered------PASS]]>
+      <![CDATA[<br>Step 3 : Firstname entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 4 : create account clicked------PASS]]>
+      <![CDATA[<br>Step 4 : Lastname entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 5 : gender choosed------PASS]]>
+      <![CDATA[<br>Step 5 : Address entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 6 : firstname entered------PASS]]>
+      <![CDATA[<br>Step 6 : City entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 7 : lastname entered------PASS]]>
+      <![CDATA[<br>Step 7 : State entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 8 : password entered------PASS]]>
+      <![CDATA[<br>Step 8 : Zipcode entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 9 : day selected------PASS]]>
+      <![CDATA[<br>Step 9 : Phone entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 10 : month selected------PASS]]>
+      <![CDATA[<br>Step 10 : SSN entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 11 : year selected------PASS]]>
+      <![CDATA[<br>Step 11 : Username entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 12 : address firstname entered-----PASS]]>
+      <![CDATA[<br>Step 12 : Password entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 12 : address lastname entered------PASS]]>
+      <![CDATA[<br>Step 13 : Confirm Password entered------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 14 : address entered------PASS]]>
+      <![CDATA[<br>Step 14 : Register Button clicked------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 15 : city entered------PASS]]>
+      <![CDATA[<br><img src='F:/workspace/eclipse/Parabank/src/libraries/screenshots/testScripts.UserRegistration_15_05_2021_13_18_21.jpeg' height='300' width='300'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br>Step 16 : state selected------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 17 : year selected------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 18 : zip entered-----PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 19 : phone number entered------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 20 : alais entered------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 21 : register clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='F:/Selenium_Framework-master/Selenium_Framework-master/src/libraries/screenshots/testScripts.UserRegistration_30_03_2021_11_48_39.jpeg' height='300' width='300'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 22 : Validating the Registration ------PASS]]>
+      <![CDATA[<br>Step 15 : Validating the Registration ------PASS]]>
     </line>
     <line>
       <![CDATA[<br>Browser Closed------PASS]]>
@@ -83,25 +62,10 @@
       <![CDATA[<br>Step 1 : Url Loaded------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 2 : Signin clicked------PASS]]>
+      <![CDATA[<br>Step 2 : Entered username and Password and login button clicked------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 3 : Application logged in------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 4 : Tshirt Menu clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 5 : Tshirt Hoverd over------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 6 : Add to cart clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 7 : proceed to Checkout clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='F:/Selenium_Framework-master/Selenium_Framework-master/src/libraries/screenshots/testScripts.ProductSelection_30_03_2021_11_49_05.jpeg' height='300' width='300'/><br>]]>
+      <![CDATA[<br><img src='F:/workspace/eclipse/Parabank/src/libraries/screenshots/testScripts.ParabankLoginCheck_15_05_2021_13_18_40.jpeg' height='300' width='300'/><br>]]>
     </line>
     <line>
       <![CDATA[<br>Step 8 : Verificaiton of Prodcut selection------PASS]]>
@@ -116,137 +80,50 @@
       <![CDATA[<br>Step 1 : Url Loaded------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 2 : Signin clicked------PASS]]>
+      <![CDATA[<br>Step 2 : Entered username and Password and login button clicked------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 3 : Application logged in------PASS]]>
+      <![CDATA[<br>Step 3 : Open Account clicked------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 4 : Tshirt Menu clicked------PASS]]>
+      <![CDATA[<br>Step 4 : Account Type Selected------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 5 : Tshirt Hovered Over------PASS]]>
+      <![CDATA[<br>Step 5 : Open New Account clicked------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 6 : Add to Cart clicked------PASS]]>
+      <![CDATA[<br>Step 6 : Verified the Welcome Message------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 7 : Proceed to checkout clicked------PASS]]>
+      <![CDATA[<br>Step 7 : Account number written to Excel------PASS]]>
     </line>
     <line>
-      <![CDATA[<br>Step 8 : Proceed to checkout clicked------PASS]]>
+      <![CDATA[<br><img src='F:/workspace/eclipse/Parabank/src/libraries/screenshots/testScripts.CreateOpenAccount_15_05_2021_13_19_06.jpeg' height='300' width='300'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br>Step 9 : Proceed to update address clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 10 : Proceed to address field edited------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 11 : save button clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 12 : Verification of Address Success------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 13 : Proceed to checkout clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 14 : User Agreement Checkbox clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 15 : Proceed to checkout clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='F:/Selenium_Framework-master/Selenium_Framework-master/src/libraries/screenshots/testScripts.AddressUpdate_30_03_2021_11_49_45.jpeg' height='300' width='300'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 16 : Validation Successfull------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Browser Closed------PASS]]>
-    </line>
-    <line>
-      <![CDATA[Step 1 : Browser Initialized------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 1 : Url Loaded------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 2 : Signin clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 3 : Application logged in------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 4 : Tshirt Menu clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 5 : Tshirt Hovered Over------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 6 : Add to Cart clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 7 : Proceed to checkout clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 8 : Proceed to checkout clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 9 : Proceed to update address clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 10 : Proceed to address field edited------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 11 : save button clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 12 : Verification of Address Success------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 13 : Proceed to checkout clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 14 : User Agreement Checkbox clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 15 : Proceed to checkout clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 16 : payment option  clicked------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 17 : order confirmed------PASS]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='F:/Selenium_Framework-master/Selenium_Framework-master/src/libraries/screenshots/testScripts.Payment_30_03_2021_11_50_30.jpeg' height='300' width='300'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>Step 18 : Order Details Validated------PASS]]>
+      <![CDATA[<br>Step 8 : Verificaiton of Account details------PASS]]>
     </line>
     <line>
       <![CDATA[<br>Browser Closed------PASS]]>
     </line>
   </reporter-output>
-  <suite name="first" duration-ms="141426" started-at="2021-03-30T06:18:10Z" finished-at="2021-03-30T06:20:31Z">
+  <suite name="first" duration-ms="64940" started-at="2021-05-15T07:48:03Z" finished-at="2021-05-15T07:49:08Z">
     <groups>
     </groups>
-    <test name="OrangeHRM" duration-ms="141426" started-at="2021-03-30T06:18:10Z" finished-at="2021-03-30T06:20:31Z">
-      <class name="testScripts.AddressUpdate">
-        <test-method status="PASS" signature="load(org.testng.ITestResult)[pri:0, instance:testScripts.AddressUpdate@27efef64]" name="load" is-config="true" duration-ms="1842" started-at="2021-03-30T11:49:06Z" finished-at="2021-03-30T11:49:08Z">
+    <test name="Parabank" duration-ms="64940" started-at="2021-05-15T07:48:03Z" finished-at="2021-05-15T07:49:08Z">
+      <class name="testScripts.CreateOpenAccount">
+        <test-method status="PASS" signature="load(org.testng.ITestResult)[pri:0, instance:testScripts.CreateOpenAccount@59f99ea]" name="load" is-config="true" duration-ms="2263" started-at="2021-05-15T13:18:41Z" finished-at="2021-05-15T13:18:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Product_Selection status=SUCCESS method=AddressUpdate.Product_Selection()[pri:0, instance:testScripts.AddressUpdate@27efef64] output=Step 1 : Browser Initialized------PASS]]]>
+                <![CDATA[[TestResult name=Parabank_Login status=SUCCESS method=CreateOpenAccount.Parabank_Login()[pri:0, instance:testScripts.CreateOpenAccount@59f99ea] output=Step 1 : Browser Initialized------PASS]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- load -->
-        <test-method status="PASS" signature="Product_Selection()[pri:0, instance:testScripts.AddressUpdate@27efef64]" name="Product_Selection" duration-ms="37120" started-at="2021-03-30T11:49:08Z" finished-at="2021-03-30T11:49:45Z">
+        <test-method status="PASS" signature="Parabank_Login()[pri:0, instance:testScripts.CreateOpenAccount@59f99ea]" name="Parabank_Login" duration-ms="22927" started-at="2021-05-15T13:18:43Z" finished-at="2021-05-15T13:19:06Z">
           <reporter-output>
             <line>
               <![CDATA[Step 1 : Browser Initialized------PASS]]>
@@ -255,83 +132,59 @@
               <![CDATA[<br>Step 1 : Url Loaded------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 2 : Signin clicked------PASS]]>
+              <![CDATA[<br>Step 2 : Entered username and Password and login button clicked------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 3 : Application logged in------PASS]]>
+              <![CDATA[<br>Step 3 : Open Account clicked------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 4 : Tshirt Menu clicked------PASS]]>
+              <![CDATA[<br>Step 4 : Account Type Selected------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 5 : Tshirt Hovered Over------PASS]]>
+              <![CDATA[<br>Step 5 : Open New Account clicked------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 6 : Add to Cart clicked------PASS]]>
+              <![CDATA[<br>Step 6 : Verified the Welcome Message------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 7 : Proceed to checkout clicked------PASS]]>
+              <![CDATA[<br>Step 7 : Account number written to Excel------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 8 : Proceed to checkout clicked------PASS]]>
+              <![CDATA[<br><img src='F:/workspace/eclipse/Parabank/src/libraries/screenshots/testScripts.CreateOpenAccount_15_05_2021_13_19_06.jpeg' height='300' width='300'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br>Step 9 : Proceed to update address clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 10 : Proceed to address field edited------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 11 : save button clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 12 : Verification of Address Success------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 13 : Proceed to checkout clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 14 : User Agreement Checkbox clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 15 : Proceed to checkout clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='F:/Selenium_Framework-master/Selenium_Framework-master/src/libraries/screenshots/testScripts.AddressUpdate_30_03_2021_11_49_45.jpeg' height='300' width='300'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 16 : Validation Successfull------PASS]]>
+              <![CDATA[<br>Step 8 : Verificaiton of Account details------PASS]]>
             </line>
             <line>
               <![CDATA[<br>Browser Closed------PASS]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Product_Selection -->
-        <test-method status="PASS" signature="cleanup(org.testng.ITestResult)[pri:0, instance:testScripts.AddressUpdate@27efef64]" name="cleanup" is-config="true" duration-ms="763" started-at="2021-03-30T11:49:45Z" finished-at="2021-03-30T11:49:46Z">
+        </test-method> <!-- Parabank_Login -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult)[pri:0, instance:testScripts.CreateOpenAccount@59f99ea]" name="cleanup" is-config="true" duration-ms="1219" started-at="2021-05-15T13:19:06Z" finished-at="2021-05-15T13:19:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Product_Selection status=SUCCESS method=AddressUpdate.Product_Selection()[pri:0, instance:testScripts.AddressUpdate@27efef64] output=Step 1 : Browser Initialized------PASS]]]>
+                <![CDATA[[TestResult name=Parabank_Login status=SUCCESS method=CreateOpenAccount.Parabank_Login()[pri:0, instance:testScripts.CreateOpenAccount@59f99ea] output=Step 1 : Browser Initialized------PASS]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-      </class> <!-- testScripts.AddressUpdate -->
-      <class name="testScripts.ProductSelection">
-        <test-method status="PASS" signature="load(org.testng.ITestResult)[pri:0, instance:testScripts.ProductSelection@59f99ea]" name="load" is-config="true" duration-ms="1674" started-at="2021-03-30T11:48:40Z" finished-at="2021-03-30T11:48:42Z">
+      </class> <!-- testScripts.CreateOpenAccount -->
+      <class name="testScripts.UserRegistration">
+        <test-method status="PASS" signature="load(org.testng.ITestResult)[pri:0, instance:testScripts.UserRegistration@68c4039c]" name="load" is-config="true" duration-ms="4148" started-at="2021-05-15T13:18:03Z" finished-at="2021-05-15T13:18:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Product_Selection status=SUCCESS method=ProductSelection.Product_Selection()[pri:0, instance:testScripts.ProductSelection@59f99ea] output=Step 1 : Browser Initialized------PASS]]]>
+                <![CDATA[[TestResult name=user_registration status=SUCCESS method=UserRegistration.user_registration()[pri:0, instance:testScripts.UserRegistration@68c4039c] output=Step 1 : Browser Initialized------PASS]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- load -->
-        <test-method status="PASS" signature="Product_Selection()[pri:0, instance:testScripts.ProductSelection@59f99ea]" name="Product_Selection" duration-ms="23943" started-at="2021-03-30T11:48:42Z" finished-at="2021-03-30T11:49:06Z">
+        <test-method status="PASS" signature="user_registration()[pri:0, instance:testScripts.UserRegistration@68c4039c]" name="user_registration" duration-ms="14792" started-at="2021-05-15T13:18:07Z" finished-at="2021-05-15T13:18:22Z">
           <reporter-output>
             <line>
               <![CDATA[Step 1 : Browser Initialized------PASS]]>
@@ -340,25 +193,92 @@
               <![CDATA[<br>Step 1 : Url Loaded------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 2 : Signin clicked------PASS]]>
+              <![CDATA[<br>Step 2 : Register Link clicked------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 3 : Application logged in------PASS]]>
+              <![CDATA[<br>Step 3 : Firstname entered------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 4 : Tshirt Menu clicked------PASS]]>
+              <![CDATA[<br>Step 4 : Lastname entered------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 5 : Tshirt Hoverd over------PASS]]>
+              <![CDATA[<br>Step 5 : Address entered------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 6 : Add to cart clicked------PASS]]>
+              <![CDATA[<br>Step 6 : City entered------PASS]]>
             </line>
             <line>
-              <![CDATA[<br>Step 7 : proceed to Checkout clicked------PASS]]>
+              <![CDATA[<br>Step 7 : State entered------PASS]]>
             </line>
             <line>
-              <![CDATA[<br><img src='F:/Selenium_Framework-master/Selenium_Framework-master/src/libraries/screenshots/testScripts.ProductSelection_30_03_2021_11_49_05.jpeg' height='300' width='300'/><br>]]>
+              <![CDATA[<br>Step 8 : Zipcode entered------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 9 : Phone entered------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 10 : SSN entered------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 11 : Username entered------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 12 : Password entered------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 13 : Confirm Password entered------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 14 : Register Button clicked------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='F:/workspace/eclipse/Parabank/src/libraries/screenshots/testScripts.UserRegistration_15_05_2021_13_18_21.jpeg' height='300' width='300'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 15 : Validating the Registration ------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Browser Closed------PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- user_registration -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult)[pri:0, instance:testScripts.UserRegistration@68c4039c]" name="cleanup" is-config="true" duration-ms="906" started-at="2021-05-15T13:18:22Z" finished-at="2021-05-15T13:18:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=user_registration status=SUCCESS method=UserRegistration.user_registration()[pri:0, instance:testScripts.UserRegistration@68c4039c] output=Step 1 : Browser Initialized------PASS]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- testScripts.UserRegistration -->
+      <class name="testScripts.ParabankLoginCheck">
+        <test-method status="PASS" signature="load(org.testng.ITestResult)[pri:0, instance:testScripts.ParabankLoginCheck@ae45eb6]" name="load" is-config="true" duration-ms="3509" started-at="2021-05-15T13:18:22Z" finished-at="2021-05-15T13:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Parabank_Login status=SUCCESS method=ParabankLoginCheck.Parabank_Login()[pri:0, instance:testScripts.ParabankLoginCheck@ae45eb6] output=Step 1 : Browser Initialized------PASS]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="Parabank_Login()[pri:0, instance:testScripts.ParabankLoginCheck@ae45eb6]" name="Parabank_Login" duration-ms="14263" started-at="2021-05-15T13:18:26Z" finished-at="2021-05-15T13:18:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1 : Browser Initialized------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 1 : Url Loaded------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2 : Entered username and Password and login button clicked------PASS]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='F:/workspace/eclipse/Parabank/src/libraries/screenshots/testScripts.ParabankLoginCheck_15_05_2021_13_18_40.jpeg' height='300' width='300'/><br>]]>
             </line>
             <line>
               <![CDATA[<br>Step 8 : Verificaiton of Prodcut selection------PASS]]>
@@ -367,213 +287,19 @@
               <![CDATA[<br>Browser Closed------PASS]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Product_Selection -->
-        <test-method status="PASS" signature="cleanup(org.testng.ITestResult)[pri:0, instance:testScripts.ProductSelection@59f99ea]" name="cleanup" is-config="true" duration-ms="781" started-at="2021-03-30T11:49:06Z" finished-at="2021-03-30T11:49:06Z">
+        </test-method> <!-- Parabank_Login -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult)[pri:0, instance:testScripts.ParabankLoginCheck@ae45eb6]" name="cleanup" is-config="true" duration-ms="897" started-at="2021-05-15T13:18:40Z" finished-at="2021-05-15T13:18:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Product_Selection status=SUCCESS method=ProductSelection.Product_Selection()[pri:0, instance:testScripts.ProductSelection@59f99ea] output=Step 1 : Browser Initialized------PASS]]]>
+                <![CDATA[[TestResult name=Parabank_Login status=SUCCESS method=ParabankLoginCheck.Parabank_Login()[pri:0, instance:testScripts.ParabankLoginCheck@ae45eb6] output=Step 1 : Browser Initialized------PASS]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-      </class> <!-- testScripts.ProductSelection -->
-      <class name="testScripts.UserRegistration">
-        <test-method status="PASS" signature="load(org.testng.ITestResult)[pri:0, instance:testScripts.UserRegistration@ae45eb6]" name="load" is-config="true" duration-ms="3613" started-at="2021-03-30T11:48:10Z" finished-at="2021-03-30T11:48:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Product_Selection status=SUCCESS method=UserRegistration.Product_Selection()[pri:0, instance:testScripts.UserRegistration@ae45eb6] output=Step 1 : Browser Initialized------PASS]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method status="PASS" signature="Product_Selection()[pri:0, instance:testScripts.UserRegistration@ae45eb6]" name="Product_Selection" duration-ms="25803" started-at="2021-03-30T11:48:13Z" finished-at="2021-03-30T11:48:39Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Step 1 : Browser Initialized------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 1 : Url Loaded------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 2 : Signin clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 3 : email entered------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 4 : create account clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 5 : gender choosed------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 6 : firstname entered------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 7 : lastname entered------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 8 : password entered------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 9 : day selected------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 10 : month selected------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 11 : year selected------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 12 : address firstname entered-----PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 12 : address lastname entered------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 14 : address entered------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 15 : city entered------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 16 : state selected------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 17 : year selected------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 18 : zip entered-----PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 19 : phone number entered------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 20 : alais entered------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 21 : register clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='F:/Selenium_Framework-master/Selenium_Framework-master/src/libraries/screenshots/testScripts.UserRegistration_30_03_2021_11_48_39.jpeg' height='300' width='300'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 22 : Validating the Registration ------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Browser Closed------PASS]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Product_Selection -->
-        <test-method status="PASS" signature="cleanup(org.testng.ITestResult)[pri:0, instance:testScripts.UserRegistration@ae45eb6]" name="cleanup" is-config="true" duration-ms="954" started-at="2021-03-30T11:48:39Z" finished-at="2021-03-30T11:48:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Product_Selection status=SUCCESS method=UserRegistration.Product_Selection()[pri:0, instance:testScripts.UserRegistration@ae45eb6] output=Step 1 : Browser Initialized------PASS]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanup -->
-      </class> <!-- testScripts.UserRegistration -->
-      <class name="testScripts.Payment">
-        <test-method status="PASS" signature="load(org.testng.ITestResult)[pri:0, instance:testScripts.Payment@6f7fd0e6]" name="load" is-config="true" duration-ms="1660" started-at="2021-03-30T11:49:46Z" finished-at="2021-03-30T11:49:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Product_Selection status=SUCCESS method=Payment.Product_Selection()[pri:0, instance:testScripts.Payment@6f7fd0e6] output=Step 1 : Browser Initialized------PASS]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method status="PASS" signature="Product_Selection()[pri:0, instance:testScripts.Payment@6f7fd0e6]" name="Product_Selection" duration-ms="42457" started-at="2021-03-30T11:49:48Z" finished-at="2021-03-30T11:50:30Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Step 1 : Browser Initialized------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 1 : Url Loaded------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 2 : Signin clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 3 : Application logged in------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 4 : Tshirt Menu clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 5 : Tshirt Hovered Over------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 6 : Add to Cart clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 7 : Proceed to checkout clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 8 : Proceed to checkout clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 9 : Proceed to update address clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 10 : Proceed to address field edited------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 11 : save button clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 12 : Verification of Address Success------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 13 : Proceed to checkout clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 14 : User Agreement Checkbox clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 15 : Proceed to checkout clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 16 : payment option  clicked------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 17 : order confirmed------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='F:/Selenium_Framework-master/Selenium_Framework-master/src/libraries/screenshots/testScripts.Payment_30_03_2021_11_50_30.jpeg' height='300' width='300'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>Step 18 : Order Details Validated------PASS]]>
-            </line>
-            <line>
-              <![CDATA[<br>Browser Closed------PASS]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Product_Selection -->
-        <test-method status="PASS" signature="cleanup(org.testng.ITestResult)[pri:0, instance:testScripts.Payment@6f7fd0e6]" name="cleanup" is-config="true" duration-ms="782" started-at="2021-03-30T11:50:30Z" finished-at="2021-03-30T11:50:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Product_Selection status=SUCCESS method=Payment.Product_Selection()[pri:0, instance:testScripts.Payment@6f7fd0e6] output=Step 1 : Browser Initialized------PASS]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanup -->
-      </class> <!-- testScripts.Payment -->
-    </test> <!-- OrangeHRM -->
+      </class> <!-- testScripts.ParabankLoginCheck -->
+    </test> <!-- Parabank -->
   </suite> <!-- first -->
 </testng-results>

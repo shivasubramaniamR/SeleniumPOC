@@ -4,34 +4,15 @@
   <listeners>
     <listener class-name="reporting.CustomTestNGReporter"/>
   </listeners>
-  <test name="OrangeHRM(failed)">
+  <test name="Parabank(failed)">
     <classes>
-      <class name="testScripts.CreateUser">
+      <class name="testScripts.UserRegistration">
         <methods>
           <include name="cleanup"/>
           <include name="load"/>
+          <include name="user_registration"/>
         </methods>
-      </class> <!-- testScripts.CreateUser -->
-      <class name="testScripts.DeleteUser">
-        <methods>
-          <include name="orageHRM_delete_user"/>
-          <include name="cleanup"/>
-          <include name="load"/>
-        </methods>
-      </class> <!-- testScripts.DeleteUser -->
-      <class name="testScripts.EditUser">
-        <methods>
-          <include name="cleanup"/>
-          <include name="load"/>
-        </methods>
-      </class> <!-- testScripts.EditUser -->
-      <class name="testScripts.AdminLogin">
-        <methods>
-          <include name="orageHRM_admin_login"/>
-          <include name="load"/>
-          <include name="cleanup"/>
-        </methods>
-      </class> <!-- testScripts.AdminLogin -->
+      </class> <!-- testScripts.UserRegistration -->
     </classes>
-  </test> <!-- OrangeHRM(failed) -->
+  </test> <!-- Parabank(failed) -->
 </suite> <!-- Failed suite [first] -->

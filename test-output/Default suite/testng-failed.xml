@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testScripts.Payment">
+      <class name="testScripts.CreateOpenAccount">
         <methods>
-          <include name="Product_Selection"/>
           <include name="cleanup"/>
           <include name="load"/>
+          <include name="Parabank_Login"/>
         </methods>
-      </class> <!-- testScripts.Payment -->
+      </class> <!-- testScripts.CreateOpenAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -28,7 +28,7 @@ public class CustomTestNGReporter implements IReporter {
 	
 	//This is the customize emailabel report template file path.
 	
-	private static final String emailableReportTemplateFile = (System.getProperty("user.dir")+File.separator+"src"+File.separator+"reporting"+File.separator+"MyStore-emailable-report-template.html").replace("\\", "/") ;
+	private static final String emailableReportTemplateFile = (System.getProperty("user.dir")+File.separator+"src"+File.separator+"reporting"+File.separator+"Parabank-emailable-report-template.html").replace("\\", "/") ;
 //	private static final String emailableReportTemplateFile = "E:\\workspace\\orangehrm\\src\\reporting\\OrangeHRM-emailable-report-template.html";
 	
 	@Override
@@ -40,7 +40,7 @@ public class CustomTestNGReporter implements IReporter {
 			String customReportTemplateStr = this.readEmailabelReportTemplate();
 			
 			// Create custom report title.
-			String customReportTitle = this.getCustomReportTitle("OrangeHRM TestNG Report");
+			String customReportTitle = this.getCustomReportTitle("Parabank TestNG Report");
 			
 			// Create test suite summary data.
 			String customSuiteSummary = this.getTestSuiteSummary(suites);
@@ -58,7 +58,7 @@ public class CustomTestNGReporter implements IReporter {
 			customReportTemplateStr = customReportTemplateStr.replaceAll("\\$Test_Case_Detail\\$", customTestMethodSummary);
 			
 			// Write replaced test report content to custom-emailable-report.html.
-			File targetFile = new File(outputDirectory + "/MyStore-emailable-report-template.html");
+			File targetFile = new File(outputDirectory + "/Parabank-emailable-report-template.html");
 			FileWriter fw = new FileWriter(targetFile);
 			fw.write(customReportTemplateStr);
 			fw.flush();

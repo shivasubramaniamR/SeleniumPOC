@@ -2,14 +2,15 @@
 <listeners>
         <listener class-name="reporting.CustomTestNGReporter" />
     </listeners>
-	<test name="OrangeHRM">
+	<test name="Parabank">
 		<classes>
 		
-			<class name="testScripts.UserRegistration"/>
+			
 			 
-			<class name="testScripts.ProductSelection"/>
-			<class name="testScripts.AddressUpdate"/>
-			<class name="testScripts.Payment"/>   
+			  <class name="testScripts.UserRegistration"/>
+			  <class name="testScripts.ParabankLoginCheck"/>
+			  <class name="testScripts.CreateOpenAccount"/>
+			
 			
 		</classes>
 	

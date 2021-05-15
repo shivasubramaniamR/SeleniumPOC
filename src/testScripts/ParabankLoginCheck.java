@@ -12,17 +12,17 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
-import pageObjects.StoreLogin;
-import pageObjects.Product_Selection;
+import pageObjects.ParabankLogin;
+
 import utilities.Base;
 import utilities.CustomListeners;
 
 @Listeners(CustomListeners.class)
-public class ProductSelection extends Base {
+public class ParabankLoginCheck extends Base {
 
-	StoreLogin login;
+	ParabankLogin login;
 	Base b ;
-	Product_Selection ps;
+	
 	public String screenshotFilePath="";
 	public String reportspath="";
 	public String URL="";
@@ -37,7 +37,7 @@ public class ProductSelection extends Base {
 		b = new Base();
 		screenshotFilePath = (System.getProperty("user.dir")+File.separator+"src"+File.separator+"libraries"+File.separator+"screenshots"+File.separator).replace("\\", "/") ;
 		reportspath=(System.getProperty("user.dir")+File.separator+"src"+File.separator+"libraries"+File.separator+"reports"+File.separator).replace("\\", "/") ;
-		URL = b.getMapData("URL", 0);
+		URL = b.readfromExcel(0, 1, 0);
 		intialReport=(System.getProperty("user.dir")+File.separator+"test-output"+File.separator+"MyStore-emailable-report-template.html").replace("\\", "/") ;
 		
 		intialize("chrome");
@@ -59,36 +59,24 @@ public class ProductSelection extends Base {
 	}
 	
 	@Test(enabled=true)
-	public void Product_Selection() {
+	public void Parabank_Login() {
 		
 		try {
 				
-		login = new StoreLogin(b.returnDriver());
-		ps = new Product_Selection();
+		login = new ParabankLogin(b.returnDriver());
+		
 		b.loadURL(URL);
 		Reporter.log("<br>Step 1 : Url Loaded------PASS");
 		
-		b.ElementWait(login.SignIn);		
+		b.ElementWait(login.SignIn);	
 		
-		b.click(login.SignIn);
-		Reporter.log("<br>Step 2 : Signin clicked------PASS");
 		
-		login.login(b.getMapData("email", 1),b.getMapData("password", 1));
-		Reporter.log("<br>Step 3 : Application logged in------PASS");
 		
-		b.click(ps.TShirts);
-		Reporter.log("<br>Step 4 : Tshirt Menu clicked------PASS");
+		login.login(b.readfromExcel(0, 1, 9),b.readfromExcel(0, 1, 10));
+		Reporter.log("<br>Step 2 : Entered username and Password and login button clicked------PASS");
 		
-		b.mouseOver(ps.Tshirt_Hover);
-		Reporter.log("<br>Step 5 : Tshirt Hoverd over------PASS");
 		
-		b.click(ps.AddToCart);
-		Reporter.log("<br>Step 6 : Add to cart clicked------PASS");
-		
-		b.click(ps.ProceedToCheckout);
-		Reporter.log("<br>Step 7 : proceed to Checkout clicked------PASS");
-		
-		Assert.assertEquals(b.getText(ps.cart), "1 Product");
+		Assert.assertEquals(b.getText(login.Welcome), "Welcome"+" "+b.readfromExcel(0, 1, 1)+" "+b.readfromExcel(0, 1, 2));
 		
 		
 		b.screenShot(screenshotFilePath, this.getClass().getName());

@@ -2,12 +2,14 @@ package utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 
@@ -306,6 +308,19 @@ public  Map<String,  Map<String, String>> setMapData2(int index) throws IOExcept
 		dropdown.selectByVisibleText(value);  
 	}
 	
+	public void selectDropDownwithLists(By element,String value) {
+		
+		Select sel = new Select(driver.findElement(element));
+        List<WebElement> list_options = sel.getOptions();
+        for(WebElement ele: list_options){
+            if(ele.getText().contains(value)){
+                String value1 = ele.getAttribute("value");
+                sel.selectByValue(value1);
+                break;
+            }
+        } 
+	}
+	
 	public void setText(By element,String value) {
 		driver.findElement(element).clear();
 		driver.findElement(element).sendKeys(value);
@@ -432,10 +447,20 @@ public  Map<String,  Map<String, String>> setMapData2(int index) throws IOExcept
 		
 	}
 	
+	public void dropdownSelectText(By ele, String text) {
+		Select obj = new Select(driver.findElement(ele));
+		obj.selectByVisibleText(text);
+		
+	}
+	
 	public void dropdownSelectindex(By ele, int number) {
 		Select obj = new Select(driver.findElement(ele));
 		obj.selectByIndex(number);
 		
+	}
+	
+	public void clickcss(By ele) {
+		driver.findElement(ele).click();
 	}
 	
 	public void genderChoose(String text, By ele1, By ele2) {
@@ -450,6 +475,49 @@ public  Map<String,  Map<String, String>> setMapData2(int index) throws IOExcept
 	
 	public int getsize(By ele) {
 		 return driver.findElements(ele).size();
+	}
+	
+	public String readfromExcel(int index,int row,int column) throws IOException {
+		
+		String path = (System.getProperty("user.dir")+File.separator+"src"+File.separator+"testData"+File.separator+"TestDataSheet.xlsx").replace("\\", "/") ;
+		
+		FileInputStream inputStream = new FileInputStream(path);
+		Workbook wb = new XSSFWorkbook(inputStream);
+		
+		Sheet sh = wb.getSheetAt(index);
+		
+		
+		
+		return sh.getRow(row).getCell(column).toString();
+		
+	}
+	
+	public void writetoExcel(int index, int row, int column, String text) throws IOException {
+		
+String path = (System.getProperty("user.dir")+File.separator+"src"+File.separator+"testData"+File.separator+"TestDataSheet.xlsx").replace("\\", "/") ;
+		
+		FileInputStream inputStream = new FileInputStream(path);
+		Workbook wb = new XSSFWorkbook(inputStream);
+		Sheet sh = wb.getSheetAt(index);
+		Row row1 = sh.getRow(row);
+		Cell cell = row1.createCell(column);
+		cell.setCellValue(text);
+		
+		inputStream.close();
+
+
+
+	    FileOutputStream outputStream = new FileOutputStream(path);
+
+	   
+
+	    wb.write(outputStream);
+
+	    
+
+	    outputStream.close();
+	
+		
 	}
 	
 	
